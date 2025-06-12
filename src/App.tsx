@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react'
 import './App.css'
 import { ReactLenis, type LenisRef } from 'lenis/react'
 import { cancelFrame, frame } from 'motion'
-import { useScroll } from 'motion/react'
+import { useScroll, motion } from 'motion/react'
 // import ScrollAnimation from './components/ScrollAnimation'
 
-// import bgPc from './assets/bg-pc.svg'
+import bgPc from './assets/bg-pc.svg'
 
 function App() {
   const lenisRef = useRef<LenisRef>(null)
@@ -36,8 +36,21 @@ function App() {
 
   return (
     <ReactLenis root options={{ autoRaf: false }} ref={lenisRef}>
-      <div className='flex justify-center items-start h-[200vh] overflow-hidden' ref={ref}>
-        <h1 className='mt-80'>Portafolio 1.0</h1>
+      <div className='w-full h-[200vh] overflow-hidden bg-[#080808]' ref={ref}>
+
+        <motion.div className='flex justify-center items-center bg-red-200 w-full h-[100vh]' animate={{
+          scale: .8,
+          transition: { duration: 2 }
+        }}>
+          <div className='bgpc relative w-full bg-red-100'>
+            <div className='noise relative w-full h-screen flex justify-center items-center overflow-hidden pointer-events-none select-none bg-[#0a0a0a]'>
+              <h1 className=''>Portafolio 1.0</h1>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* noise content */}
+
       </div>
     </ReactLenis>
   )
