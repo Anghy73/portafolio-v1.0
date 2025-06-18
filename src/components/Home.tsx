@@ -36,10 +36,123 @@ function Home() {
         marginTop: marginTop
       }}
     >
-      <div className="border-pc flex justify-center items-center relative w-full h-screen bg-[#0a0a0a] z-10 mb-50">
+      <div className="border-pc relative w-full h-screen flex justify-center items-center bg-[#0a0a0a] z-10 mb-50">
+        <div className="base-pc absolute"></div>
         <div className="noise absolute w-full h-screen -z-10 overflow-hidden"></div>
-        <h1>portafolio 1.0</h1>
-        <button>Click</button>
+        <div className="w-full h-full flex flex-col justify-start items-start pt-24 px-10 text-white/40 overflow-hidden">
+          <div className="flex">
+            <span className="w-5 text-right mr-4">1</span>
+            <p>import './portafolio.css'</p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">2</span>
+            <p></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">3</span>
+            <p>function Presentation <span>&#40;</span> . . . <span>&#41;</span><span className="pl-3">&#123;</span> </p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">4</span>
+            <p className="pl-10">console.log <span>&#40;</span> "Hello Word :D" <span>&#41;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">5</span>
+            <p className="pl-10"></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">6</span>
+            <p className="pl-10">return <span className="pl-3">&#40;</span> <span>&#41;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">7</span>
+            <p className="pl-18"><span>&#60;</span> <span>&#62;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right my-auto mr-4">8</span>
+            <p className="pl-26">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span> div <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right my-auto mr-4">9</span>
+            <p className="pl-34">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span> h1 <span>&#62;</span> <span className="text-6xl text-white text-shadow-[0px_0px_8px] text-shadow-white px-3">Andy Ruz</span> <span>&#60;</span>/ h1 <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex mt-4">
+            <span className="w-5 text-right my-auto mr-4">10</span>
+            <p className="pl-34">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span> h3 <span>&#62;</span> <span className="text-2xl text-teal-400 text-shadow-[0px_0px_8px] text-shadow-teal-400 px-3">Frontend Developer</span> <span>&#60;</span>/ h3 <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right my-auto mr-4">11</span>
+            <p className="pl-26">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span>/ div <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex mt-4">
+            <span className="w-5 text-right my-auto mr-4">12</span>
+            <p className="pl-26">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span> div <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex mt-4">
+            <span className="w-5 text-right my-auto mr-4">13</span>
+            <p className="pl-34">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span> button <span>&#62;</span> <button className="mx-3">Dowload C.V</button> <span>&#60;</span>/ button <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex mt-4">
+            <span className="w-5 text-right my-auto mr-4">14</span>
+            <p className="pl-26">
+              <div className="flex justify-center items-center">
+                <span>&#60;</span>/ div <span>&#62;</span>
+              </div>
+            </p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">15</span>
+            <p className="pl-18"><span>&#60;</span>/ <span>&#62;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">16</span>
+            <p className="pl-10"><span>&#41;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">17</span>
+            <p><span>&#125;</span></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">18</span>
+            <p></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">19</span>
+            <p>export default Presentation</p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">20</span>
+            <p></p>
+          </div>
+          <div className="flex">
+            <span className="w-5 text-right mr-4">21</span>
+            <p></p>
+          </div>
+        </div>
       </div>
     </motion.div>
   )
