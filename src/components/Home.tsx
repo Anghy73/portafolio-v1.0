@@ -1,21 +1,14 @@
 import { motion, useScroll, useTransform } from "motion/react";
-import { useEffect, useRef } from "react"
+// import { useEffect, } from "react"
 
 function Home() {
-  const ref = useRef<HTMLDivElement>(null)
+  const { scrollYProgress } = useScroll()
 
-  const { scrollYProgress } = useScroll({
-    target: ref
-  })
-
-  console.log(scrollYProgress);
-
-
-  useEffect(() => {
-    scrollYProgress.on("change", (v) => {
-      console.log("scrollYProgress:", v.toFixed(3));
-    })
-  }, [scrollYProgress])
+  // useEffect(() => {
+  //   scrollYProgress.on("change", (v) => {
+  //     console.log("scrollYProgress:", v.toFixed(3));
+  //   })
+  // }, [scrollYProgress])
 
   const scale = useTransform(
     scrollYProgress,
@@ -70,59 +63,59 @@ function Home() {
           </div>
           <div className="flex">
             <span className="w-5 text-right my-auto mr-4">8</span>
-            <p className="pl-26">
+            <div className="pl-26">
               <div className="flex justify-center items-center">
                 <span>&#60;</span> div <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex">
             <span className="w-5 text-right my-auto mr-4">9</span>
-            <p className="pl-34">
+            <div className="pl-34">
               <div className="flex justify-center items-center">
                 <span>&#60;</span> h1 <span>&#62;</span> <span className="text-6xl text-white text-shadow-[0px_0px_8px] text-shadow-white px-3">Andy Ruz</span> <span>&#60;</span>/ h1 <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex mt-4">
             <span className="w-5 text-right my-auto mr-4">10</span>
-            <p className="pl-34">
+            <div className="pl-34">
               <div className="flex justify-center items-center">
                 <span>&#60;</span> h3 <span>&#62;</span> <span className="text-2xl text-teal-400 text-shadow-[0px_0px_8px] text-shadow-teal-400 px-3">Frontend Developer</span> <span>&#60;</span>/ h3 <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex">
             <span className="w-5 text-right my-auto mr-4">11</span>
-            <p className="pl-26">
+            <div className="pl-26">
               <div className="flex justify-center items-center">
                 <span>&#60;</span>/ div <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex mt-4">
             <span className="w-5 text-right my-auto mr-4">12</span>
-            <p className="pl-26">
+            <div className="pl-26">
               <div className="flex justify-center items-center">
                 <span>&#60;</span> div <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex mt-4">
             <span className="w-5 text-right my-auto mr-4">13</span>
-            <p className="pl-34">
+            <div className="pl-34">
               <div className="flex justify-center items-center">
                 <span>&#60;</span> button <span>&#62;</span> <button className="mx-3">Dowload C.V</button> <span>&#60;</span>/ button <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex mt-4">
             <span className="w-5 text-right my-auto mr-4">14</span>
-            <p className="pl-26">
+            <div className="pl-26">
               <div className="flex justify-center items-center">
                 <span>&#60;</span>/ div <span>&#62;</span>
               </div>
-            </p>
+            </div>
           </div>
           <div className="flex">
             <span className="w-5 text-right mr-4">15</span>

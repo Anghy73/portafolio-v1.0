@@ -1,9 +1,29 @@
+import { useScroll } from "motion/react"
+import { useEffect, useState } from "react";
+
 function Header() {
+  const [activeBlur, setActiveBlur] = useState(false)
+  const { scrollYProgress } = useScroll()
+
+  useEffect(() => {
+    scrollYProgress.on("change", (v) => {
+      console.log("scrollYProgress:", v.toFixed(3));
+      const value = Number(v.toFixed(3))
+      if (value > 0.005) {
+        setActiveBlur(true)
+      } else {
+        setActiveBlur(false)
+      }
+    })
+  }, [scrollYProgress])
+
   return (
     <header
       style={{
         backgroundColor: 'transparent',
-        backdropFilter: 'blur(20px)'
+        backdropFilter: activeBlur ? 'blur(15px)' : 'blur(0px)',
+        borderBottom: '2px solid transparent',
+        borderColor: activeBlur ? '#00bba744' : 'transparent',
       }}
       className="fixed top-0 left-0 w-full h-20 z-20"
     >
