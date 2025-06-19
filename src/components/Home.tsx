@@ -81,7 +81,7 @@ function Home() {
             <span className="w-5 text-right my-auto mr-4">10</span>
             <div className="pl-34">
               <div className="flex justify-center items-center">
-                <span>&#60;</span> h3 <span>&#62;</span> <span className="text-2xl text-teal-400 text-shadow-[0px_0px_8px] text-shadow-teal-400 px-3">Frontend Developer</span> <span>&#60;</span>/ h3 <span>&#62;</span>
+                <span>&#60;</span> h2 <span>&#62;</span> <span className="text-2xl text-teal-400 text-shadow-[0px_0px_8px] text-shadow-teal-400 px-3">Frontend Developer</span> <span>&#60;</span>/ h2 <span>&#62;</span>
               </div>
             </div>
           </div>
