@@ -7,7 +7,7 @@ function Header() {
 
   useEffect(() => {
     scrollYProgress.on("change", (v) => {
-      console.log("scrollYProgress:", v.toFixed(3));
+      // console.log("scrollYProgress:", v.toFixed(3));
       const value = Number(v.toFixed(3))
       if (value > 0.005) {
         setActiveBlur(true)
@@ -25,7 +25,7 @@ function Header() {
         borderBottom: '2px solid transparent',
         borderColor: activeBlur ? '#00bba744' : 'transparent',
       }}
-      className="fixed top-0 left-0 w-full h-20 z-20"
+      className="fixed top-0 left-0 w-full h-20 z-50"
     >
       <nav className="w-full h-full flex justify-center items-center">
         <ul className="flex justify-center items-center gap-10 text-white text-shadow-[0px_0px_8px] text-shadow-white font-medium">

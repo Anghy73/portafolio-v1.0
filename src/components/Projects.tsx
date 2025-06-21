@@ -1,14 +1,38 @@
-import img from '../../public/logo.png'
+import ProjectItem from './ProjectItem'
+
+const projects = [
+  {
+    id: 0,
+    title: "project 1",
+    description: "lorem dlaskjd",
+  },
+  {
+    id: 1,
+    title: "project 2",
+    description: "lorem dlaskjd",
+  },
+  {
+    id: 2,
+    title: "project 3",
+    description: "lorem dlaskjd",
+  }
+]
 
 function Projects() {
   return (
-    <div id="projects" className="w-full h-full py-30">
+    <div id="projects" className="relative w-full h-full py-30 z-20">
       <h2 className="font-medium text-3xl flex justify-center items-center gap-4 pb-10 mb-15"><span className="text-white/20 text-xl">&#60; h3 &#62;</span> <span className="text-white text-shadow-[0px_0px_8px] text-shadow-white">Projects</span><span className="text-white/20 text-xl">&#60;/ h3 &#62;</span></h2>
 
-      <section className="w-full h-full grid grid-cols-1 grid-rows-2 gap-10 justify-items-center">
-        <div className='w-full max-w-3xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
+      <section className="w-full h-full grid grid-cols-1 gap-10 justify-items-center">
+        {
+          projects.map(pro => (
+            <ProjectItem key={pro.id} pro={pro}></ProjectItem>
+          ))
+        }
+        {/* <div className='w-full max-w-3xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
           <figure className='w-full max-w-80 h-full hover:bg-red-500 rounded-md'>
             <img className='w-full h-full object-contain' src={img} alt="" />
+            <video className='w-full h-full object-contain' src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/5eeea355389655.59822ff824b72.gif"></video>
           </figure>
           <div className='flex flex-col justify-between items-start w-full h-full text-start'>
             <div className='flex flex-col gap-4'>
@@ -21,7 +45,7 @@ function Projects() {
               <button className='w-full'>Code</button>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   )
