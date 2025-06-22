@@ -3,18 +3,19 @@ import ProjectItem from './ProjectItem'
 const projects = [
   {
     id: 0,
-    title: "project 1",
-    description: "lorem dlaskjd",
+    title: "QuizGen",
+    description: "Web en donde puedes crear un quiz de 10 preguntas de la categoria que tu desees, esto utilizando taktaka que genera la estrucutra para el quiz.",
   },
   {
     id: 1,
-    title: "project 2",
-    description: "lorem dlaskjd",
+    title: "OnlyStrings",
+    description: "Web para crear notas y almacenarlas en linea, incluye un login y register con los formularios protegidos, use la libreria tip tap para crear un editor para las notas y bridar una mayor personalizacion a las notas. tiene todas las funcionalidades de un CRUD.",
+    technologies: ["React", "Typescript", "TailwindCSS", "Chart"]
   },
   {
     id: 2,
-    title: "project 3",
-    description: "lorem dlaskjd",
+    title: "PokeAPI",
+    description: "Utilizando la API de pokemons cree una web que ademas de mostrar los datos que estrega la api le gregue un estilo minimalista mas un buscador por nombre y filtors por tipo y genero.",
   }
 ]
 

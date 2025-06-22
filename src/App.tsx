@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import ScrollAnimation from './components/ScrollAnimation'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Home></Home>
           <AboutMe></AboutMe>
           <Projects></Projects>
-          {/* <Skills></Skills> */}
+          <Skills></Skills>
           {/* <Contact></Contact> */}
           <div className="wrapper z-10">
             <div className="gradient gradient-1"></div>

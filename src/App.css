@@ -157,10 +157,9 @@
   height: 100%;
   overflow: hidden;
   filter: blur(150px);
-  /* z-index: 11; */
 }
 
-/* .wrapper-2 {
+.wrapper-2 {
   position: absolute;
   top: 300%;
   left: 30%;
@@ -168,8 +167,7 @@
   height: 100%;
   overflow: hidden;
   filter: blur(150px);
-  z-index: -1;
-} */
+}
 
 .gradient {
   position: absolute;
