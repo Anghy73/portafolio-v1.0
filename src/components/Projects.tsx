@@ -1,22 +1,40 @@
 import ProjectItem from './ProjectItem'
 
+import poke from '../assets/gifs/poke.gif'
+import quizgen from '../assets/gifs/quizgen.gif'
+import only from '../assets/gifs/only.gif'
+
 const projects = [
+  {
+    id: 2,
+    title: "PokeAPI",
+    description: "Website where you can see all the Pokémon and filter them by type, gender, and name. You can see information about each Pokémon, all within a minimalist and intuitive design (inspired by Pinterest images) and save your favorite Pokémon.",
+    imgURL: "https://i.imgur.com/KCYnBdU.png",
+    imgGif: poke,
+    stack: ["React", "TailwindCSS", "Zustand", "ReactRouter", "Typescript", "TanStack"],
+    link: "https://pokemonapiv2react.netlify.app/",
+    code: "https://github.com/Anghy73/PokemonAPI"
+  },
   {
     id: 0,
     title: "QuizGen",
-    description: "Web en donde puedes crear un quiz de 10 preguntas de la categoria que tu desees, esto utilizando taktaka que genera la estrucutra para el quiz.",
+    description: "A website that generates a 10-question quiz from any category. It works with the Magic Loops API, which returns a JSON file containing the structure of the questions and answers, ready for the requested category.",
+    imgURL: "https://camo.githubusercontent.com/20f6cb1cf5c02f178ce4fb1d874b585bc3df8d49bab54e6a0d95d60f7fed79b5/68747470733a2f2f692e696d6775722e636f6d2f666a57615354592e706e67",
+    imgGif: quizgen,
+    stack: ["React", "TailwindCSS", "Zustand"],
+    link: "https://quizgenpractice.netlify.app/",
+    code: "https://github.com/Anghy73/quizGen"
   },
   {
     id: 1,
     title: "OnlyStrings",
-    description: "Web para crear notas y almacenarlas en linea, incluye un login y register con los formularios protegidos, use la libreria tip tap para crear un editor para las notas y bridar una mayor personalizacion a las notas. tiene todas las funcionalidades de un CRUD.",
-    technologies: ["React", "Typescript", "TailwindCSS", "Chart"]
+    description: "A website for creating notes and storing them online. It includes a login and registration form with protected forms. It uses the Tip Tap library to create a note editor and provide greater customization. It has all the features of a CRUD.",
+    imgURL: "https://i.imgur.com/4YykjbW.png",
+    imgGif: only,
+    stack: ["React", "Typescript", "TailwindCSS", "Node", "Express", "TypeORM", "TipTap", "Zustand", "ReactRouter"],
+    link: "https://onlystrings-frontend.onrender.com",
+    code: "https://github.com/Anghy73/onlystrings-frontend"
   },
-  {
-    id: 2,
-    title: "PokeAPI",
-    description: "Utilizando la API de pokemons cree una web que ademas de mostrar los datos que estrega la api le gregue un estilo minimalista mas un buscador por nombre y filtors por tipo y genero.",
-  }
 ]
 
 function Projects() {
@@ -30,23 +48,6 @@ function Projects() {
             <ProjectItem key={pro.id} pro={pro}></ProjectItem>
           ))
         }
-        {/* <div className='w-full max-w-3xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
-          <figure className='w-full max-w-80 h-full hover:bg-red-500 rounded-md'>
-            <img className='w-full h-full object-contain' src={img} alt="" />
-            <video className='w-full h-full object-contain' src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/5eeea355389655.59822ff824b72.gif"></video>
-          </figure>
-          <div className='flex flex-col justify-between items-start w-full h-full text-start'>
-            <div className='flex flex-col gap-4'>
-              <h3>title</h3>
-              <p>descripción: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, assumenda iste aspernatur ipsum iure deleniti inventore pariatur nam eum maxime praesentium voluptate, delectus sequi odio voluptas expedita? Dolore, natus eos!</p>
-              <div>technologies</div>
-            </div>
-            <div className='flex w-full gap-8'>
-              <button className='w-full'>Live Demo</button>
-              <button className='w-full'>Code</button>
-            </div>
-          </div>
-        </div> */}
       </section>
     </div>
   )

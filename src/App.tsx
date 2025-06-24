@@ -27,6 +27,11 @@ function App() {
             <div className="gradient gradient-2"></div>
             <div className="gradient gradient-3"></div>
           </div>
+          <div className="wrapper-3">
+            <div className="gradient gradient-1"></div>
+            <div className="gradient gradient-2"></div>
+            <div className="gradient gradient-3"></div>
+          </div>
         </main>
         {/* <footer></footer> */}
       </ScrollAnimation>
