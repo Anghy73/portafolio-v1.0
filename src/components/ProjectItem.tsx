@@ -25,7 +25,6 @@ function ProjectItem({ pro }: { pro: Pro }) {
   const handleHoverLeave = () => {
     setHoverActive(false)
   }
-  // console.log(pro);
 
   const matchIcon = (name: string) => {
     switch (name) {
@@ -57,7 +56,7 @@ function ProjectItem({ pro }: { pro: Pro }) {
 
   const { title, description } = pro
   return (
-    <div className='w-full max-w-4xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
+    <div className='w-full h-full max-w-4xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
       <figure onMouseEnter={handleHoverEnter} onMouseLeave={handleHoverLeave} className='w-lg h-80 rounded-md overflow-hidden'>
         {
           hoverActive ? <img className='w-full h-full object-contain' src={pro.imgGif} alt="" /> : <img className='w-full h-full object-contain' src={pro.imgURL} alt="" />

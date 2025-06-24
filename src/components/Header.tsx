@@ -39,7 +39,7 @@ function Header() {
             <a href="#skills"><span className="text- text-teal-500">&#123;</span> Skills <span className="text- text-teal-500">&#125;</span></a>
           </li>
           <li className="hover:text-teal-500 hover:text-shadow-[0px_0px_8px] hover:text-shadow-teal-600">
-            <a href="#"><span className="text- text-teal-500">&#123;</span> Contacts <span className="text- text-teal-500">&#125;</span></a>
+            <a href="#contact"><span className="text- text-teal-500">&#123;</span> Contacts <span className="text- text-teal-500">&#125;</span></a>
           </li>
         </ul>
       </nav>

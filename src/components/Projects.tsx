@@ -45,7 +45,11 @@ function Projects() {
       <section className="w-full h-full grid grid-cols-1 gap-10 justify-items-center">
         {
           projects.map(pro => (
-            <ProjectItem key={pro.id} pro={pro}></ProjectItem>
+            <div className='flex justify-center items-center gap-4' key={pro.id}>
+              <span className='text-xl text-white/20'>&#60; div &#62;</span>
+              <ProjectItem pro={pro}></ProjectItem>
+              <span className='text-xl text-white/20'>&#60;/ div &#62;</span>
+            </div>
           ))
         }
       </section>

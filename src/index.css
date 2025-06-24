@@ -16,11 +16,11 @@
   scroll-behavior: smooth;
 }
 
-a {
+/* a { */
   /* text-shadow: 0px 0px 8px #ffd230; */
   /* text-shadow: 0px 0px 8px #00bba7; */
   /* text-shadow: 0px 0px 8px; */
-}
+/* } */
 
 /* a:hover {
   color: #535bf2;
