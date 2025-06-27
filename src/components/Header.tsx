@@ -25,7 +25,7 @@ function Header() {
         borderBottom: '2px solid transparent',
         borderColor: activeBlur ? '#00bba744' : 'transparent',
       }}
-      className="fixed top-0 left-0 w-full h-20 z-50"
+      className="fixed top-0 left-0 w-full h-20 z-50 flex justify-center items-center"
     >
       <nav className="w-full h-full flex justify-center items-center">
         <ul className="flex justify-center items-center gap-10 text-white text-shadow-[0px_0px_8px] text-shadow-white font-medium">
