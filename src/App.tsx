@@ -9,6 +9,8 @@ import ScrollAnimation from './components/ScrollAnimation'
 import Skills from './components/Skills'
 
 function App() {
+  console.log(import.meta.env.VITE_TEST_ENV_GITHUB);
+  
   return (
     <>
       <Header></Header>

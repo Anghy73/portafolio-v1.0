@@ -6,16 +6,6 @@ import only from '../assets/gifs/only.gif'
 
 const projects = [
   {
-    id: 2,
-    title: "PokeAPI",
-    description: "Website where you can see all the Pokémon and filter them by type, gender, and name. You can see information about each Pokémon, all within a minimalist and intuitive design (inspired by Pinterest images) and save your favorite Pokémon.",
-    imgURL: "https://i.imgur.com/KCYnBdU.png",
-    imgGif: poke,
-    stack: ["React", "TailwindCSS", "Zustand", "ReactRouter", "Typescript", "TanStack"],
-    link: "https://pokemonapiv2react.netlify.app/",
-    code: "https://github.com/Anghy73/PokemonAPI"
-  },
-  {
     id: 0,
     title: "QuizGen",
     description: "A website that generates a 10-question quiz from any category. It works with the Magic Loops API, which returns a JSON file containing the structure of the questions and answers, ready for the requested category.",
@@ -34,6 +24,16 @@ const projects = [
     stack: ["React", "Typescript", "TailwindCSS", "Node", "Express", "TypeORM", "TipTap", "Zustand", "ReactRouter"],
     link: "https://onlystrings-frontend.onrender.com",
     code: "https://github.com/Anghy73/onlystrings-frontend"
+  },
+  {
+    id: 2,
+    title: "PokeAPI",
+    description: "Website where you can see all the Pokémon and filter them by type, gender, and name. You can see information about each Pokémon, all within a minimalist and intuitive design (inspired by Pinterest images) and save your favorite Pokémon.",
+    imgURL: "https://i.imgur.com/KCYnBdU.png",
+    imgGif: poke,
+    stack: ["React", "TailwindCSS", "Zustand", "ReactRouter", "Typescript", "TanStack"],
+    link: "https://pokemonapiv2react.netlify.app/",
+    code: "https://github.com/Anghy73/PokemonAPI"
   },
 ]
 
