@@ -9,7 +9,7 @@ type Pro = {
   title: string,
   description: string,
   imgURL: string,
-  imgGif: string,
+  video: string,
   stack: Array<string>,
   link: string,
   code: string
@@ -59,7 +59,7 @@ function ProjectItem({ pro }: { pro: Pro }) {
     <div className='w-full h-full max-w-4xl flex justify-start gap-10 items-center p-2 border-2 border-teal-900 rounded-lg'>
       <figure onMouseEnter={handleHoverEnter} onMouseLeave={handleHoverLeave} className='w-lg h-80 rounded-md overflow-hidden'>
         {
-          hoverActive ? <img className='w-full h-full object-contain' src={pro.imgGif} alt="" /> : <img className='w-full h-full object-contain' src={pro.imgURL} alt="" />
+          hoverActive ? <video className='w-full h-full object-contain' src={pro.video} autoPlay muted loop ></video> : <img className='w-full h-full object-contain' src={pro.imgURL} alt="" />
         }
       </figure>
       <div className='flex flex-col justify-between items-start w-full h-full text-start py-6 pr-4'>
