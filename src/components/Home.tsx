@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "motion/react";
-// import { useEffect, } from "react"
 
+import cv from '../assets/CV-Andy-Ruz.pdf'
 function Home() {
   const { scrollYProgress } = useScroll()
 
@@ -137,7 +137,7 @@ function Home() {
             <span className="w-5 text-right my-auto mr-4">13</span>
             <div className="pl-34 w-full">
               <div className="flex justify-start items-center">
-                <span>&#60;</span> button <span>&#62;</span> <button className="w-fit mx-3 border-2 border-teal-700 p-3 px-10 rounded-lg cursor-pointer text-teal-700 hover:text-teal-500 hover:border-teal-500 hover:text-shadow-[0px_0px_8px] hover:text-shadow-teal-400 hover:shadow-[0px_0px_8px] hover:shadow-teal-400 transition-all">Dowload C.V</button> <span>&#60;</span>/ button <span>&#62;</span>
+                <span>&#60;</span> button <span>&#62;</span> <button className="w-fit mx-3 border-2 border-teal-700 p-3 px-10 rounded-lg cursor-pointer text-teal-700 hover:text-teal-500 hover:border-teal-500 hover:text-shadow-[0px_0px_8px] hover:text-shadow-teal-400 hover:shadow-[0px_0px_8px] hover:shadow-teal-400 transition-all"><a href={cv} download="CV Andy Ruz">Dowload C.V</a></button> <span>&#60;</span>/ button <span>&#62;</span>
               </div>
             </div>
           </div>
