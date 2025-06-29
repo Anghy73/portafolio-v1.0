@@ -1,7 +1,7 @@
 import ProjectItem from './ProjectItem'
 
 import quizgen from '../assets/videos/quizVideo.mp4'
-// import poke from '../assets/gifs/poke.gif'
+import poke from '../assets/videos/pokeVideo.mp4'
 import only from '../assets/videos/onlyStringVideo.mp4'
 
 const projects = [
@@ -30,7 +30,7 @@ const projects = [
     title: "PokeAPI",
     description: "Website where you can see all the Pokémon and filter them by type, gender, and name. You can see information about each Pokémon, all within a minimalist and intuitive design (inspired by Pinterest images) and save your favorite Pokémon.",
     imgURL: "https://i.imgur.com/KCYnBdU.png",
-    video: '',
+    video: poke,
     stack: ["React", "TailwindCSS", "Zustand", "ReactRouter", "Typescript", "TanStack"],
     link: "https://pokemonapiv2react.netlify.app/",
     code: "https://github.com/Anghy73/PokemonAPI"
