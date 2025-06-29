@@ -2,7 +2,7 @@ import ProjectItem from './ProjectItem'
 
 import quizgen from '../assets/videos/quizVideo.mp4'
 // import poke from '../assets/gifs/poke.gif'
-// import only from '../assets/gifs/only.gif'
+import only from '../assets/videos/onlyStringVideo.mp4'
 
 const projects = [
   {
@@ -20,7 +20,7 @@ const projects = [
     title: "OnlyStrings",
     description: "A website for creating notes and storing them online. It includes a login and registration form with protected forms. It uses the Tip Tap library to create a note editor and provide greater customization. It has all the features of a CRUD.",
     imgURL: "https://i.imgur.com/4YykjbW.png",
-    video: '',
+    video: only,
     stack: ["React", "Typescript", "TailwindCSS", "Node", "Express", "TypeORM", "TipTap", "Zustand", "ReactRouter"],
     link: "https://onlystrings-frontend.onrender.com",
     code: "https://github.com/Anghy73/onlystrings-frontend"
