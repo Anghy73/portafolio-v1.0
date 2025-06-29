@@ -1,7 +1,6 @@
 {
-  "homepage": "https://anghy73.github.io/portafolio-v1.0",
   "name": "portafolio-v1.0",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
