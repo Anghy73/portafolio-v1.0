@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Anghy73.github.io/portafolio-v1.0",
+  "homepage": "https://anghy73.github.io/portafolio-v1.0",
   "name": "portafolio-v1.0",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
