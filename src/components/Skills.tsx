@@ -1,4 +1,4 @@
-import { HTML5, CSS, Expressjs, Git, GitHub, JavaScript, Nodejs, PostgreSQL, ReactJS, TailwindCSS, TypeScript } from "../assets/Icons"
+import { HTML5, CSS, Expressjs, Git, GitHub, JavaScript, Nodejs, PostgreSQL, ReactJS, TailwindCSS, TypeScript, Nextjs } from "../assets/Icons"
 
 function Skills() {
   return (
@@ -14,6 +14,7 @@ function Skills() {
         <div title="Node.js" className="flex justify-center items-center gap-2 border-2 border-green-500 w-fit p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-green-500 cursor-pointer"><span className="w-5"><Nodejs></Nodejs></span><span className="font-semibold text-lg text-green-500 text-shadow-[0px_0px_8px] text-shadow-green-500">Node.js</span></div>
         <div title="Express" className="flex justify-center items-center gap-2 border-2 border-slate-400 w-fit p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-slate-400 cursor-pointer"><span className="w-5"><Expressjs></Expressjs></span><span className="font-semibold text-lg text-slate-400 text-shadow-[0px_0px_8px] text-shadow-slate-400">Express</span></div>
         <div title="PostgresSQL" className="flex justify-center items-center gap-2 border-2 border-sky-500 w-fit p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-sky-500 cursor-pointer"><span><PostgreSQL></PostgreSQL></span><span className="font-semibold text-lg text-sky-500 text-shadow-[0px_0px_8px] text-shadow-sky-500">PostgresSQL</span></div>
+        <div title="Next.js" className="flex justify-center items-center gap-2 border-2 border-white w-26 h-12 p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-white cursor-pointer"><span><Nextjs></Nextjs></span><span className="font-semibold text-lg text-white text-shadow-[0px_0px_8px] text-shadow-white">Next</span></div>
         <div title="Git" className="flex justify-center items-center gap-2 border-2 border-orange-500 w-fit p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-orange-500 cursor-pointer"><span><Git></Git></span><span className="font-semibold text-lg text-orange-500 text-shadow-[0px_0px_8px] text-shadow-orange-500">Git</span></div>
         <div title="GitHub" className="flex justify-center items-center gap-2 border-2 border-gray-400 w-fit p-2 px-4 rounded-md shadow-[0px_0px_8px] shadow-gray-400 cursor-pointer"><span><GitHub></GitHub></span><span className="font-semibold text-lg text-gray-400 text-shadow-[0px_0px_8px] text-shadow-gray-400">GitHub</span></div>
       </div>
