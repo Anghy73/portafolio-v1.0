@@ -2,7 +2,8 @@ import ProjectItem from './ProjectItem'
 
 import quizgen from '../assets/videos/quizVideo.mp4'
 import poke from '../assets/videos/pokeVideo.mp4'
-import only from '../assets/videos/onlyStringVideo.mp4'
+
+import linkNestLanding from "../assets/images/LinkNest.png"
 
 const projects = [
   {
@@ -15,15 +16,25 @@ const projects = [
     link: "https://quizgenpractice.netlify.app/",
     code: "https://github.com/Anghy73/quizGen"
   },
+  // {
+  //   id: 1,
+  //   title: "OnlyStrings",
+  //   description: "A website for creating notes and storing them online. It includes a login and registration form with protected forms. It uses the Tip Tap library to create a note editor and provide greater customization. It has all the features of a CRUD.",
+  //   imgURL: "https://i.imgur.com/4YykjbW.png",
+  //   video: only,
+  //   stack: ["React", "Typescript", "TailwindCSS", "Node", "Express", "TypeORM", "TipTap", "Zustand", "ReactRouter"],
+  //   link: "https://onlystrings-frontend.onrender.com",
+  //   code: "https://github.com/Anghy73/onlystrings-frontend"
+  // },
   {
     id: 1,
-    title: "OnlyStrings",
-    description: "A website for creating notes and storing them online. It includes a login and registration form with protected forms. It uses the Tip Tap library to create a note editor and provide greater customization. It has all the features of a CRUD.",
-    imgURL: "https://i.imgur.com/4YykjbW.png",
-    video: only,
-    stack: ["React", "Typescript", "TailwindCSS", "Node", "Express", "TypeORM", "TipTap", "Zustand", "ReactRouter"],
-    link: "https://onlystrings-frontend.onrender.com",
-    code: "https://github.com/Anghy73/onlystrings-frontend"
+    title: "Link Nest",
+    description: "A website for organization and classification of links. The main idea is to have a web-based tool to save all your links and categorize them for the best performance.",
+    imgURL: linkNestLanding,
+    // video: ,
+    stack: ["Next.js", "Typescript", "TailwindCSS", "Zustand", "Supabase"],
+    link: "https://linknesti.vercel.app/",
+    code: "https://github.com/Anghy73/linknest"
   },
   {
     id: 2,

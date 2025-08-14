@@ -45,7 +45,7 @@ function Footer() {
           </li>
           <li className="flex justify-center items-center gap-3">
             <span><LinkedIn></LinkedIn></span>
-            <a className="text-white text-shadow-[0px_0px_8px] text-shadow-white border-b-2 border-teal-700 hover:border-teal-400" href="https://www.linkedin.com/in/andy-ruz-1a17a52a4/" target="_blank">LinkedIn</a>
+            <a className="text-white text-shadow-[0px_0px_8px] text-shadow-white border-b-2 border-teal-700 hover:border-teal-400" href="https://www.linkedin.com/in/andy-alberto-ruz-varela-1a17a52a4/" target="_blank">LinkedIn</a>
           </li>
         </ul>
       </div>

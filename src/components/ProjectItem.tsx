@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Expressjs, Nodejs, ReactJS, ReactQuery, ReactRouter, TailwindCSS, TypeORM, TypeScript } from '../assets/Icons'
+import { Expressjs, Nodejs, ReactJS, ReactQuery, ReactRouter, TailwindCSS, TypeORM, TypeScript, Nextjs, Supabase } from '../assets/Icons'
 
 import zustand from '../assets/zustand.svg'
 import tiptap from '../assets/tiptap.png'
@@ -9,7 +9,7 @@ type Pro = {
   title: string,
   description: string,
   imgURL: string,
-  video: string,
+  video?: string,
   stack: Array<string>,
   link: string,
   code: string
@@ -48,6 +48,10 @@ function ProjectItem({ pro }: { pro: Pro }) {
         return <ReactRouter></ReactRouter>
       case 'TanStack':
         return <ReactQuery></ReactQuery>
+      case 'Next.js':
+        return <Nextjs></Nextjs>
+      case 'Supabase':
+        return <Supabase></Supabase>
       default:
         break;
     }

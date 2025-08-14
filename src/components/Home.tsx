@@ -120,19 +120,6 @@ function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="flex mt-1">
-            <span className="w-5 text-right my-auto mr-4">13</span>
-            <div className="pl-34">
-              <div className="flex justify-center items-center">
-                <span>&#60;</span> span <span>&#62;</span>
-                <div className="flex justify-center items-center gap-4">
-                  <span className="relative w-3 h-3 bg-green-500/80 rounded-full ml-8"><span className="absolute left-0 top-0 w-3 h-3 bg-green-500/50 rounded-full animate-ping"></span></span>
-                  <p className="text-white text-shadow-[0px_0px_8px] text-shadow-white text-md mr-7"> Chile, Los Ángeles</p>
-                </div>
-                <span>&#60;</span>/ span <span>&#62;</span>
-              </div>
-            </div>
-          </div> */}
           <div className="flex mt-6 w-full">
             <span className="w-5 text-right my-auto mr-4">13</span>
             <div className="pl-34 w-full">
